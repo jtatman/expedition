@@ -1,5 +1,5 @@
 {
-  "name": "@xops.net/expedition",
+  "name": "@jtatman/expedition",
   "version": "1.0.2",
   "description": "Expedition is a block explorer for the Ethereum Stack",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/xops/expedition.git"
+    "url": "https://github.com/jtatman/expedition.git"
   },
   "scripts": {
     "build": "react-scripts build && cp build/index.html build/404.html",
@@ -21,7 +21,7 @@
   "dependencies": {
     "@etclabscore/eserialize": "^1.0.2",
     "@etclabscore/ethereum-json-rpc": "^1.3.13",
-    "@etclabscore/ethereum-json-rpc-specification": "git+https://github.com/etclabscore/ethereum-json-rpc-specification.git",
+    "@etclabscore/ethereum-json-rpc-specification": "https://github.com/etclabscore/ethereum-json-rpc-specification.git",
     "@material-ui/core": "^4.5.2",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.5.2",
