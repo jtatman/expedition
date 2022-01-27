@@ -38,7 +38,7 @@ const getTheme = (theme: Theme) => ({
         padding: 5,
         fill: grey[400],
         strokeWidth: 1,
-        fontSize: 6,
+        fontSize: 8,
       },
     },
   },
