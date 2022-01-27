@@ -5,7 +5,7 @@ const sansSerif = "'Roboto', 'Helvetica Neue', Helvetica, sans-serif";
 
 const baseLabelStyles = {
   fontFamily: sansSerif,
-  fontSize: 12,
+  fontSize: 8,
   letterSpacing: "normal",
   padding: 10,
   fill: grey[400],
