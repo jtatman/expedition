@@ -1,4 +1,5 @@
 # this builds :latest tag
-docker build -t "etclabscore/expedition" .
+docker build -t "jtatman/expedition" .
 # this assigns :latest to proper semver tag
-docker tag "etclabscore/expedition" "etclabscore/expedition:$1"
+docker tag "jtatman/expedition" "jtatman/expedition:latest"
+
