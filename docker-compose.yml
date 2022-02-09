@@ -1,0 +1,17 @@
+services:
+  expedition:
+    build: .
+    ports:
+      - 3000:3000
+    stdin_open: true
+    container_name: frontend
+    restart: always
+
+  mongo:
+    container_name: mongo-extra
+    restart: always
+    image: mongo:4.4.0
+    volumes:
+      - ./data:/data/db
+    expose:
+      - 27018
